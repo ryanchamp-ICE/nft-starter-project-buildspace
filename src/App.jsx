@@ -119,7 +119,7 @@ const App = () => {
         alert(`Hey! We've minted your NFT and sent it to your wallet! Give it some time for all the data to show. Here is the link to check it out: https://rinkeby.rarible.com/token/${CONTRACT_ADDRESS}:${tokenId.toNumber()}`);
       });
 
-      console.log("Event listener has been set up");
+      console.log("Event listener has been set up.");
     } catch (error) {
       console.log(error);
     }
